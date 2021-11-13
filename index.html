@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="section">
+
+        <div class="score">
+            <div class="player">
+                <h2>Player</h2>
+                <p>0</p>
+            </div>
+            <div class="computer">
+                <h2>Computer</h2>
+                <p>0</p>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1>Rock Paper Scissors</h1>
+            <button class="playBtn">Let's Play</button>
+        </div>
+
+        <div class="game fadeOut">
+            <h2 class="winner">Choose an option</h2>
+            <div class="hands">
+                <div class="player_hand">
+                    <img src="./assets/paper.png" width="100%" height="auto" alt="paper">
+                </div>
+
+                <div class="computer_hand">
+                    <img src="./assets/paper.png" width="100%" height="auto" alt="paper">
+                </div>
+
+            </div>
+
+            <div class="options">
+                <button class="rockBtn" data-choice="rock">Rock</button>
+                <button class="paperBtn" data-choice="paper">Paper</button>
+                <button class="scissorsBtn" data-choice="scissors">Scissors</button>
+            </div>
+            <div>
+                <button class="endGameBtn">End game</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
